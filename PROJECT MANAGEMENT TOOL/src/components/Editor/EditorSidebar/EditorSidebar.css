@@ -1,0 +1,30 @@
+.editor-sidebar {
+	width: auto;
+	height: 100%;
+	display: flex;
+}
+.sidebar-headers {
+	width: 50px;
+	text-align: center;
+}
+.editor-sidebar-tab {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background: #111;
+	list-style-type: none;
+	color: gold;
+	cursor: pointer;
+}
+.editor-sidebar-tab:hover,
+.editor-sidebar-tab.active {
+	background: #333;
+}
+.editor-sidebar.active .sidebar-tab-body {
+	display: block;
+}
+.sidebar-tab-body {
+	background: #333;
+	min-width: 300px;
+	display: none;
+}

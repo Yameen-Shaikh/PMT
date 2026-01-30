@@ -1,0 +1,28 @@
+.sidebar {
+	width: 50px;
+	height: 100%;
+	background: #fff;
+	box-sizing: border-box;
+	border-right: 1px solid #eee;
+	/* box-shadow: 3px 0 5px rgba(0, 0, 0, 0.1); */
+}
+.sidebar .list-item {
+	text-decoration: none;
+	display: list-item;
+	width: 100%;
+	line-height: 50px;
+	height: 50px;
+	list-style-type: none;
+	text-align: center;
+	color: rgb(11, 107, 216);
+	cursor: pointer;
+	transition: 0.3s;
+}
+.sidebar .list-item i {
+	line-height: 50px;
+	font-size: 1.2em;
+}
+.sidebar .list-item:hover {
+	background: #eee;
+	/* color: white; */
+}
